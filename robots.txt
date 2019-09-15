@@ -1,2 +1,2 @@
 ﻿User-agent: *
-Sitemap: https://chernov_networking.itsinsta.site/sitemap.xml
+Sitemap: https://chernov-networking.itsinsta.site/sitemap.xml
