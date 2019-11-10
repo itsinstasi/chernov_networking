@@ -1,2 +1,6 @@
 ﻿User-agent: *
 Sitemap: https://chernov-networking.itsinsta.site/sitemap.xml
+Disallow: /main.html
+Disallow: /main
+Disallow: /stories.html
+Disallow: /stories
