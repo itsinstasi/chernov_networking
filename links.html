@@ -62,7 +62,7 @@
 				<div class="header__wrap">
 					<div class="header__left">
 						<a href="./" class="header__logo">
-							<div class="header__logo-pic"><img src="https://scontent-arn2-2.cdninstagram.com/v/t51.2885-19/s150x150/75454098_443984512939382_2425122291202392064_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_ohc=fNTPGlqxWukAX-GIP-G&oh=d96605a5a868ae07773c49e7bcbdcc84&oe=5EB50A13" alt="Максим Чернов-Отец нетворкинга"></div>
+							<div class="header__logo-pic"><img src="https://scontent-arn2-2.cdninstagram.com/v/t51.2885-19/s150x150/75454098_443984512939382_2425122291202392064_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_ohc=RN4AOGU8kCIAX_IkSkG&oh=1ba397c9633b58a84c51df3d5d1acf02&oe=5EB50A13" alt="Максим Чернов-Отец нетворкинга"></div>
 							<div class="header__logo-txt">chernov_networking</div>
 						</a>
 						<div class="header__title">Максим Чернов-Отец нетворкинга</div>
@@ -314,6 +314,9 @@ $(document).ready(function(){
 
 		$("#settingsContainer").show();
 		$("#settingsContainer").children("btn").first().attr("onclick", 'window.open("http://itsinsta.site/invite.html?invitationId="' + lid + ')');
+	}
+	else if (lid && lid == "true") {
+        localStorage.setItem("hasToken", true);
 	}
 	else if (localStorage.getItem("hasToken"))
 	{
